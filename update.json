@@ -1,12 +1,12 @@
 {
-  "versionCode": 11,
-  "versionName": "0.1.10-native-alpha",
+  "versionCode": 12,
+  "versionName": "0.1.11-native-alpha",
   "apkUrl": "https://github.com/929656937qqcom-boop/photo-culler-releases/releases/latest/download/PhotoCuller-Android.apk",
-  "sha256": "1780B7A096604665F514741E527F34E60F8F70DA84CA5FEBCF572B5382B04A45",
+  "sha256": "8DC4E392A20788308784DD9F14FE9DD4E2D753FB2F7BD1CCFA4BE1FD73D00F70",
   "required": false,
   "notes": [
-    "每完成5个小组会出现一次有温度的阶段完成卡",
-    "使用本阶段保留照片组成回忆封面并生成拍摄月份标题",
-    "支持回看本阶段原图、继续整理或今天先到这里"
+    "使用随APK安装的离线模型自动识别小组类别",
+    "支持人物、风景、美食、工作和其他类别筛选",
+    "进入小组可手动纠正，类别绝不参与自动淘汰"
   ]
 }
