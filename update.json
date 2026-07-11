@@ -1,12 +1,12 @@
 {
-  "versionCode": 9,
-  "versionName": "0.1.8-native-alpha",
+  "versionCode": 10,
+  "versionName": "0.1.9-native-alpha",
   "apkUrl": "https://github.com/929656937qqcom-boop/photo-culler-releases/releases/latest/download/PhotoCuller-Android.apk",
-  "sha256": "FF49C232654E883196CFFBDB670593410C5D03E0821B50290332124798E99D0B",
+  "sha256": "D012EF192698FAB3B034A21E35D19E9FED9FE173A2678D877CC7F672A1E136D2",
   "required": false,
   "notes": [
-    "新增双列同组审核抽屉，每个格子最多预览4张同组照片",
-    "组内可返回小组列表、顺序下一组或随机下一组",
-    "完成当前组后默认自动进入下一组"
+    "修复进入同组审核列表后屏幕持续闪烁",
+    "扫描完成事件现在只刷新一次，不再每秒重复加载",
+    "后台刷新不会再遮住已经显示的小组列表"
   ]
 }
