@@ -1,12 +1,12 @@
 {
-  "versionCode": 10,
-  "versionName": "0.1.9-native-alpha",
+  "versionCode": 11,
+  "versionName": "0.1.10-native-alpha",
   "apkUrl": "https://github.com/929656937qqcom-boop/photo-culler-releases/releases/latest/download/PhotoCuller-Android.apk",
-  "sha256": "D012EF192698FAB3B034A21E35D19E9FED9FE173A2678D877CC7F672A1E136D2",
+  "sha256": "1780B7A096604665F514741E527F34E60F8F70DA84CA5FEBCF572B5382B04A45",
   "required": false,
   "notes": [
-    "修复进入同组审核列表后屏幕持续闪烁",
-    "扫描完成事件现在只刷新一次，不再每秒重复加载",
-    "后台刷新不会再遮住已经显示的小组列表"
+    "每完成5个小组会出现一次有温度的阶段完成卡",
+    "使用本阶段保留照片组成回忆封面并生成拍摄月份标题",
+    "支持回看本阶段原图、继续整理或今天先到这里"
   ]
 }
