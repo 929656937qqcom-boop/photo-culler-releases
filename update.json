@@ -1,12 +1,12 @@
 {
-  "versionCode": 8,
-  "versionName": "0.1.7-native-alpha",
+  "versionCode": 9,
+  "versionName": "0.1.8-native-alpha",
   "apkUrl": "https://github.com/929656937qqcom-boop/photo-culler-releases/releases/latest/download/PhotoCuller-Android.apk",
-  "sha256": "A637C9E13BEC31501C307F6F47CA289EF3E45A911D5119307D3A7CAF05662616",
+  "sha256": "FF49C232654E883196CFFBDB670593410C5D03E0821B50290332124798E99D0B",
   "required": false,
   "notes": [
-    "首页支持随机抽一组开始",
-    "审核页可随时随机换组，组内PK顺序也会打乱",
-    "随机操作只改变呈现顺序，不修改已有判断"
+    "新增双列同组审核抽屉，每个格子最多预览4张同组照片",
+    "组内可返回小组列表、顺序下一组或随机下一组",
+    "完成当前组后默认自动进入下一组"
   ]
 }
