@@ -1,12 +1,12 @@
 {
-  "versionCode": 6,
-  "versionName": "0.1.5-native-alpha",
+  "versionCode": 7,
+  "versionName": "0.1.6-native-alpha",
   "apkUrl": "https://github.com/929656937qqcom-boop/photo-culler-releases/releases/latest/download/PhotoCuller-Android.apk",
-  "sha256": "A9C0D2DD254A8B32CFE0D6498B2F49877D0B61D8E8A214242011A1679CCBB91A",
+  "sha256": "EE602F56684C218B714D90CCDA10C9F9A0642B99D07A8FE2ADD8671A4982D009",
   "required": false,
   "notes": [
-    "放大页直接读取相册原图，不再放大缩略图",
-    "超大照片自动分块，缩放时加载当前区域高清图块",
-    "支持双指缩放、惯性拖动和双击缩放"
+    "原图页支持左右滑动连续查看同组照片",
+    "PK、整组卡片和原图页都提供保留与移除",
+    "移除后退出当前组并进入可撤回的待回收"
   ]
 }
