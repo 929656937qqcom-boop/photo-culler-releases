@@ -1,12 +1,12 @@
 {
-  "versionCode": 7,
-  "versionName": "0.1.6-native-alpha",
+  "versionCode": 8,
+  "versionName": "0.1.7-native-alpha",
   "apkUrl": "https://github.com/929656937qqcom-boop/photo-culler-releases/releases/latest/download/PhotoCuller-Android.apk",
-  "sha256": "EE602F56684C218B714D90CCDA10C9F9A0642B99D07A8FE2ADD8671A4982D009",
+  "sha256": "A637C9E13BEC31501C307F6F47CA289EF3E45A911D5119307D3A7CAF05662616",
   "required": false,
   "notes": [
-    "原图页支持左右滑动连续查看同组照片",
-    "PK、整组卡片和原图页都提供保留与移除",
-    "移除后退出当前组并进入可撤回的待回收"
+    "首页支持随机抽一组开始",
+    "审核页可随时随机换组，组内PK顺序也会打乱",
+    "随机操作只改变呈现顺序，不修改已有判断"
   ]
 }
