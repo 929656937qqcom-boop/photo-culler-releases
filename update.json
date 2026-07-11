@@ -2,7 +2,7 @@
   "versionCode": 4,
   "versionName": "0.1.3-native-alpha",
   "apkUrl": "https://github.com/929656937qqcom-boop/photo-culler-releases/releases/latest/download/PhotoCuller-Android.apk",
-  "sha256": "BF4A5E36DFCB623DA32FDBB8018604B4C10696310CA60D81A15C670910E740A0",
+  "sha256": "3978AEACE6D9E3CEA999C82A4F6530813306586BC590C99DABA3A678AA5CD54C",
   "required": false,
   "notes": [
     "更新检查入口移至首页底部",
