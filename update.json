@@ -1,12 +1,13 @@
 {
-  "versionCode": 12,
-  "versionName": "0.1.11-native-alpha",
+  "versionCode": 13,
+  "versionName": "0.1.12-native-alpha",
   "apkUrl": "https://github.com/929656937qqcom-boop/photo-culler-releases/releases/latest/download/PhotoCuller-Android.apk",
-  "sha256": "8DC4E392A20788308784DD9F14FE9DD4E2D753FB2F7BD1CCFA4BE1FD73D00F70",
+  "sha256": "D95E4328FC29F38C96BBF36351A807C8D93183F6DA0E16D7BB231A35FA47DDB4",
   "required": false,
   "notes": [
-    "使用随APK安装的离线模型自动识别小组类别",
-    "支持人物、风景、美食、工作和其他类别筛选",
-    "进入小组可手动纠正，类别绝不参与自动淘汰"
+    "分类同时参考画面、相册和文件名等本地信号",
+    "信号不足或冲突时进入待确认，不再强行归类",
+    "展示判断依据与置信度，手动纠正结果在升级后继续保留",
+    "截图和扫描资料优先进入工作类，分类仍不会触发自动淘汰"
   ]
 }
