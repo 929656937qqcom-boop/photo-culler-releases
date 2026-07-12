@@ -1,13 +1,13 @@
 {
-  "versionCode": 13,
-  "versionName": "0.1.12-native-alpha",
+  "versionCode": 14,
+  "versionName": "0.1.13-native-alpha",
   "apkUrl": "https://github.com/929656937qqcom-boop/photo-culler-releases/releases/latest/download/PhotoCuller-Android.apk",
-  "sha256": "D95E4328FC29F38C96BBF36351A807C8D93183F6DA0E16D7BB231A35FA47DDB4",
+  "sha256": "159334D6B168B3059F5131E47BEA740DD4FE2CDB77CE1D2881B6568BBACADEA3",
   "required": false,
   "notes": [
-    "分类同时参考画面、相册和文件名等本地信号",
-    "信号不足或冲突时进入待确认，不再强行归类",
-    "展示判断依据与置信度，手动纠正结果在升级后继续保留",
-    "截图和扫描资料优先进入工作类，分类仍不会触发自动淘汰"
+    "审核抽屉改为时间线：先按日期和连续时间段组织，再进入相似小组",
+    "跨自然日或相隔超过两小时会形成新的时间段",
+    "每个时间段展示时间范围、小组数和待审照片数",
+    "人物、风景、美食、工作等互斥分类退出主流程，并停止后台自动分类"
   ]
 }
