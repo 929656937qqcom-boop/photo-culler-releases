@@ -2,12 +2,13 @@
   "versionCode": 14,
   "versionName": "0.1.13-native-alpha",
   "apkUrl": "https://github.com/929656937qqcom-boop/photo-culler-releases/releases/latest/download/PhotoCuller-Android.apk",
-  "sha256": "159334D6B168B3059F5131E47BEA740DD4FE2CDB77CE1D2881B6568BBACADEA3",
+  "sha256": "5429948A9134D2A2B22C2E9C709C8C103316D94A4869E2A9239BED99CA044B2B",
   "required": false,
   "notes": [
     "审核抽屉改为时间线：先按日期和连续时间段组织，再进入相似小组",
     "跨自然日或相隔超过两小时会形成新的时间段",
     "每个时间段展示时间范围、小组数和待审照片数",
-    "人物、风景、美食、工作等互斥分类退出主流程，并停止后台自动分类"
+    "人物、风景、美食、工作等互斥分类退出主流程，并停止后台自动分类",
+    "移除不再使用的通用分类模型，安装包从约60MB缩小到约13MB"
   ]
 }
