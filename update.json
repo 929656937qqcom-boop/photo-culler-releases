@@ -1,15 +1,15 @@
 {
-  "versionCode": 18,
-  "versionName": "0.1.14.3-native-alpha",
+  "versionCode": 19,
+  "versionName": "0.1.14.4-native-alpha",
   "apkUrl": "https://github.com/929656937qqcom-boop/photo-culler-releases/releases/latest/download/PhotoCuller-Android.apk",
-  "sha256": "37881B6B356344603418991919F755D1C8D3AF9DA83F925CEBD5D6B6F2D3FDF9",
+  "sha256": "DBBBEA469BA77643D36DE1DF0A6908C2885D991577DE271B82F683EFB5AF3238",
   "required": false,
   "notes": [
-    "待回收改为应用内可撤回安全区，不再进入小米相册看不见的系统回收状态",
-    "待回收照片保留 30 天，首页和逐张列表显示剩余天数",
-    "满 30 天后通过后台通知提醒清理；受 Android 权限限制，最终仍需系统确认",
-    "最终处置改为永久删除：先显示不可恢复警告，再打开 Android 删除确认框",
-    "永久删除每批最多 100 张，并过滤失效或无权访问的照片",
-    "删除完成后统计总数同步减少，空间立即释放"
+    "新增找回旧版隐藏照片：识别仍在 Android 回收状态的旧照片并请求系统恢复",
+    "恢复后的照片重新出现在相册，并进入应用内待回收获得新的 30 天保护期",
+    "完整扫描会清理相册删除再恢复产生的失效旧 URI，避免新旧记录同时进入同组",
+    "修复失效图片参与冗余计算造成的 99% 虚高置信度",
+    "缩略图加载失败后显示图片已失效，不再在审核或待回收列表无限转圈",
+    "仅在拥有完整相册访问权限时清理失效记录，保留 Android 部分照片授权的数据安全"
   ]
 }
