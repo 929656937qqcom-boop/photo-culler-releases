@@ -1,14 +1,13 @@
 {
-  "versionCode": 15,
-  "versionName": "0.1.14-native-alpha",
+  "versionCode": 16,
+  "versionName": "0.1.14.1-native-alpha",
   "apkUrl": "https://github.com/929656937qqcom-boop/photo-culler-releases/releases/latest/download/PhotoCuller-Android.apk",
-  "sha256": "74457CB8D9A1B22CE3518EF02518217D69D0A208D646042E5A69C536DB8A266D",
+  "sha256": "AE3958C9B69B1988DBBF62C94D57E4367F6FCA622223E2713F536A8FC1A96BD5",
   "required": false,
   "notes": [
-    "上线冗余雷达，将小组分为高度重复、大概率冗余和相似连拍",
-    "展示判断理由、置信度和预计可释放空间",
-    "同一时间段优先呈现更确定、预计释放空间更多的小组",
-    "默认建议保留质量更高的一张，最终决定仍由用户确认",
-    "新增整组移除：允许一张不留，二次确认后只进入可撤回的待回收"
+    "修复从组内审核返回小组抽屉后跳回顶部的问题",
+    "记录离开前的首个可见条目与像素偏移，返回时恢复原位置",
+    "等待小组数据加载完成后再恢复，避免刷新过程造成二次跳动",
+    "本补丁不改变冗余识别、保留、移除或待回收逻辑"
   ]
 }
