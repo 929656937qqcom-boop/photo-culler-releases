@@ -1,15 +1,12 @@
 {
-  "versionCode": 21,
-  "versionName": "0.1.16-native-alpha",
+  "versionCode": 22,
+  "versionName": "0.1.16.1-native-alpha",
   "apkUrl": "https://github.com/929656937qqcom-boop/photo-culler-releases/releases/latest/download/PhotoCuller-Android.apk",
-  "sha256": "23D5CF4E2F29C6871EC00F2F5D2BA529DC3A556808587C58FD86B4C84AD60B35",
+  "sha256": "3DAE2CFCC7286FDD0F20B03460B3AE53C734A38005F4F02287AC1093DD87BA8B",
   "required": false,
   "notes": [
-    "核心审核流程改为照片优先：小组卡不再堆叠说明文字，照片获得主要屏幕空间",
-    "置信度、照片数和预计空间改为覆盖在照片边缘的轻量标记",
-    "PK、多选和原图查看使用贴近照片的保留、移除、换组与关闭图标",
-    "分组理由默认收起，需要时点按信息栏展开完整依据",
-    "照片库详情从文字列表改为双列大图，可直接撤回、保留或移入待回收",
-    "首页审核入口与审核漏斗同步减字，保留必要数字和状态"
+    "修复人工移除后再次扫描导致组内数字回滚",
+    "已放入待回收的照片不再参与自动重分组",
+    "升级时自动迁移既有待回收记录，30 天保护期不受影响"
   ]
 }
